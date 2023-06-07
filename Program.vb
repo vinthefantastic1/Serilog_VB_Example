@@ -1,8 +1,10 @@
 'Imports System
-'Imports Microsoft.Extensions.Logging
 Imports Serilog
-'Imports Serilog.Events
-'Imports Serilog.Sinks.SystemConsole
+
+'Do a dotnet add package on the following:
+'Imports Microsoft.Extensions.Logging  (optional)
+    'Imports Serilog.Events
+    'Imports Serilog.Sinks.SystemConsole
 
 
 
