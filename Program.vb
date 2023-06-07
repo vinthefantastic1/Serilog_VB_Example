@@ -15,9 +15,9 @@ Module Program
         Log.Information("This is an informational message")
 
         Try
-            Throw New Exception("This is an example exception")
+            Throw New Exception("Throwing an intentional exception")
         Catch ex As Exception
-            Log.Error(ex, "Throwing an intentional error")
+            Log.Error(ex, "Displaying an intentional exception message")
         End Try
 
         Log.CloseAndFlush()
